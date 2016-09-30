@@ -6,7 +6,7 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/ok', function(request, response) {
   response.setHeader('Content-Type', 'application/json');
-  response.send({"preference_id": "229965382-b907b905-9fe6-49fe-ab6b-d593dbc586cf"})
+  response.send({"preference_id": "229991228-a664ff02-98cf-4244-b153-dcd936d265cf"})
 })
 
 app.get('/wait', function(request, response) {
